@@ -16,7 +16,7 @@ const Editor = ({ entry }) => {
     },
   });
   return (
-    <div className="w-full h-full">
+    <div className="">
       {isLoading && <div>...Loading...</div>}
       <textarea
         className="w-full h-full p-8 text-xl outline-none"
