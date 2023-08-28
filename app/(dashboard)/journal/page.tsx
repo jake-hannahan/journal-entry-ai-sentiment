@@ -16,10 +16,6 @@ const getEntries = async () => {
     },
   });
 
-  await analyze(
-    `Today was an ok day. I found a new coffee shop that was cool but then I got a flat tire. :)`
-  );
-
   return entries;
 };
 
